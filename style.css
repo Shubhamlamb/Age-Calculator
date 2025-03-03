@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background: #d3f1df;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #85a98f;
+  padding: 25px;
+  width: 450px;
+  border-radius: 10px;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  align-items: center;
+  background: #5a6c57;
+}
+.input-box input {
+  background: transparent;
+  flex: 1;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  color: #d3f1df;
+  cursor: pointer;
+}
+.input-box img {
+  height: 57px;
+  width: 55px;
+  background: limegreen;
+  border-radius: 30px;
+  padding: 15px;
+  cursor: pointer;
+}
+::-webkit-calendar-picker-indicator {
+  background-color: #d3f1df;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.output-box {
+  margin: 15px;
+}
+.output-box div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+img {
+  height: 35px;
+  width: 35px;
+}
+.output-box table {
+  width: 100%;
+  padding: 15px 0;
+}
+#currentAge,
+#DOB {
+  padding: 5px;
+  color: #d4ebf8;
+}
+td {
+  padding: 5px;
+  border-bottom: 1px solid #1a1a1d;
+}
+#Fire{
+    height: 45px;
+    width: 40px;
+    padding-bottom: 10px;
+}
